@@ -1,0 +1,613 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 janv. 2020, 21:43:16
+    Author     : kelfilal
+*/
+
+#bodyAccueille
+{
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    font-family: San Francisco , sans-serif ;
+
+}
+
+body a
+{
+
+
+    transition: all 0.5s ease 0s;
+}
+
+/*<!--************************************ IMAGES PRESENTATIONS ********************************* -->*/
+
+.imgPresentation
+{
+
+    flex: 1 1 auto;
+    position: relative;
+    width: 100%;
+
+}
+
+/* <!--************************************ CHOIX DES DIFFERENTES MARQUES ********************************* -->*/
+
+.sectionChoixMarque
+{
+
+background:rgba(0, 0, 0, 0.9);
+    margin: 0px;
+    padding: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 400px;
+    position: relative;
+
+
+}
+
+#divMarqueSamsung
+{
+
+    /*    display: table-cell;
+        vertical-align: middle;*/
+    margin-left: auto;
+    margin-right: auto ;
+    display: flex;
+    flex-direction: column;
+    text-decoration:none;
+
+}
+
+#divMarqueSamsung a
+{
+    color: darkgoldenrod;
+
+}
+
+
+#divMarqueSamsung a:hover 
+{
+    text-decoration: underline;
+    color: white ;
+
+}
+
+#divMarqueSamsung a:link
+{
+    text-decoration:none;
+
+}
+
+#divImgLogoSamsung
+{
+    padding-top: 90px;
+    width: 200px; height: 200px;
+    margin: 15px;
+    background:rgba(240, 180, 0, 0.35);
+
+}
+
+.divTextRedirectionSamsung
+{
+    /*    padding-top: 100px; */
+    font-size: 15px; 
+    text-align: center;
+    text-decoration:none;
+
+}
+
+
+
+#divMarqueApple
+{
+
+
+    /*    display: table-cell;
+        vertical-align: middle;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-decoration:none;
+
+}
+
+#divMarqueApple a
+{
+    color: darkgoldenrod;
+}
+
+#divMarqueApple a:hover
+{
+    text-decoration: underline;
+    color: white ;
+}
+
+#divMarqueApple a:link
+{
+    text-decoration:none;
+}
+
+
+#divImgLogoApple
+{
+    padding-top: 61px;
+    width: 200px; height: 200px;
+    margin: 15px;
+    background:rgba(240, 180, 0, 0.35);
+
+}
+
+#divTextRedirectionApple p
+{
+    /*    padding-top: 100px; */
+    font-size: 15px; 
+
+    text-align: center;
+
+}
+
+#divMarqueGoogle
+{
+
+    /*    display: table-cell;
+        vertical-align: middle;*/
+    margin-left: auto;
+    margin-right: auto ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#divMarqueGoogle a
+{
+
+    color: darkgoldenrod;
+
+}
+
+#divMarqueGoogle a:hover
+{
+    text-decoration: underline;
+    color: white ;
+
+
+}
+
+#divMarqueGoogle a:link
+{
+
+    text-decoration:none;
+
+}
+
+#divImgLogoGoogle
+{
+    padding-top: 89px;
+    width: 200px; height: 200px;
+    margin: 15px;
+    background:rgba(240, 180, 0, 0.35);
+
+}
+
+
+#divTextRedirectionGoogle
+{
+    /*    padding-top: 100px; */
+    font-size: 15px; 
+
+    text-align: center;
+
+}
+
+IMG.imgLogo 
+{
+
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto ;
+
+
+
+}
+
+/************************************ PRODUIT RECEMENT VISITEE ********************************* */
+
+/*.divVideo
+{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: auto;
+    height: auto;
+
+}
+
+.videoFond
+{
+  position:fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width:100%;     
+    height: auto;
+
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .videoFond {
+        width:100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .videoFond { 
+        width:auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .videoFond  {
+        display: none;
+    }
+    body {
+        background: url('poster.jpg');
+        background-size: cover;
+    }
+}*/
+
+
+#lgneSeparation
+{
+
+    height: 10px;
+    background-color: darkgoldenrod;
+
+}
+
+#imgPrecedent
+{
+
+    font-size: 50px;
+    padding-top: 60px;
+    color: black;
+
+}
+
+#imgPrecedent a
+{
+    transition: all 0.5s ease 0s;
+    color: white;
+
+}
+
+
+#imgPrecedent a:hover
+{
+    text-decoration: underline;
+    color: black ;
+}
+
+#imgPrecedent a:link
+{
+    text-decoration:none;
+}
+
+#divTextProduitRecementVisite 
+{
+    background:rgba(0, 0, 0, 0.3);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    height: 200px;
+    text-align: center;
+    color: white;
+
+
+
+}
+
+#divTextProduitRecementVisite p
+{
+
+    border: 2px white  solid ;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 35px;
+    width: 320px;
+
+
+
+}
+
+
+.sectionProduitRecent
+{
+
+    background:rgba(0, 0, 0, 0.3);
+    margin: 0px;
+    padding: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+
+
+}
+
+
+#divProduit1
+{
+
+    /*    display: table-cell;
+        vertical-align: middle;*/
+    margin-left: auto;
+    margin-right: auto ;
+    display: flex;
+    flex-direction: column;
+    text-decoration:none;
+
+
+}
+
+#divProduit1 a
+{
+    color: white ;
+    transition: all 0.5s ease 0s;
+
+}
+
+
+#divProduit1 a:hover 
+{ 
+    text-decoration: underline;
+    color: black ;
+
+    /*font-weight: bold;*/
+
+}
+
+#divProduit1 a:link
+{
+    text-decoration:none;
+
+}
+
+#divImgProduit1
+{
+    margin-top: 0;
+    width: 200px; height: 200px;
+    margin: 15px;
+    background:rgba(240, 180, 0, 0);
+
+}
+
+.divTextRedirectionProduit1
+{
+    /*    padding-top: 100px; */
+    font-size: 15px; 
+    text-align: center;
+    text-decoration:none;
+    font-family: San Francisco , sans-serif  ;
+
+}
+
+
+
+#divProduit2
+{
+
+
+    /*    display: table-cell;
+        vertical-align: middle;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-decoration:none;
+
+}
+
+#divProduit2 a
+{
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+#divProduit2 a:hover
+{
+    text-decoration: underline;
+    color: black  ;
+}
+
+#divProduit2 a:link
+{
+    text-decoration:none;
+}
+
+
+#divImgProduit2
+{
+
+    width: 200px; height: 200px;
+    margin: 15px;
+    background:rgba(240, 180, 0, 0);
+
+}
+
+#divTextRedirectionProduit2
+{
+    /*    padding-top: 100px; */
+    font-size: 15px; 
+    text-align: center;
+
+}
+
+#divProduit3
+{
+
+    /*    display: table-cell;
+        vertical-align: middle;*/
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#divProduit3 a
+{
+
+    color: white ;
+    transition: all 0.5s ease 0s;
+
+}
+
+#divProduit3 a:hover
+{
+    text-decoration: underline;
+    color: black ;
+
+
+}
+
+#divProduit3 a:link
+{
+
+    text-decoration:none;
+
+}
+
+#divImgProduit3
+{
+
+    width: 200px; height: 200px;
+    margin: 22px;
+    background:rgba(240, 180, 0, 0);
+
+}
+
+
+#divTextRedirectionProduit3
+{
+    /*    padding-top: 100px; */
+    font-size: 15px; 
+
+    text-align: center;
+
+}
+
+#divProduit4
+{
+
+    /*    display: table-cell;
+        vertical-align: middle;*/
+    margin-left: auto;
+    margin-right: auto ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#divProduit4 a
+{
+
+    color: white ;
+    transition: all 0.5s ease 0s;
+
+}
+
+#divProduit4 a:hover
+{
+    text-decoration: underline;
+    color: black ;
+
+
+}
+
+#divProduit4 a:link
+{
+
+    text-decoration:none;
+
+}
+
+#divImgProduit4
+{
+
+    width: 200px; height: 200px;
+    margin: 15px;
+    background:rgba(240, 180, 0, 0);
+
+}
+
+
+#divTextRedirectionProduit4
+{
+    /*    padding-top: 100px; */
+    font-size: 15px; 
+
+    text-align: center;
+
+}
+
+IMG.imgProduit 
+{
+
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto ;
+
+
+
+}
+
+#imgSuivante
+{
+
+    font-size: 50px;
+    padding-top: 60px;
+    color: black;
+
+}
+
+#imgSuivante a
+{
+
+    color: white;
+    transition: all 0.5s ease 0s;
+
+}
+
+
+#imgSuivante a:hover
+{
+    text-decoration: underline;
+    color: black ;
+}
+
+#imgSuivante a:link
+{
+    text-decoration:none;
+}

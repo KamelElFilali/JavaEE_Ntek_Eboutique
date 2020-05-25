@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 janv. 2020, 23:27:42
+    Author     : kelfilal
+*/
+#bodyConnexionPage
+{
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    font-family: San Francisco , sans-serif;
+    background-color: rgba(240,237,237,1);
+    
+}
+
+
+#sectionConnexion
+{
+    height: 1200px;
+    width: auto; 
+    display: flex; 
+    justify-content: space-between;
+    text-align: center; 
+    margin: auto;
+    padding-top: 100px;
+
+}
+
+.CreationCompte
+{
+    width: 50%; 
+    text-align: center;
+
+}
+
+.CreationCompte h3
+{
+    border-bottom: 1px solid black; 
+    margin: auto; 
+    padding-bottom: 5px;
+    width: 400px;
+    font-size: 30px;
+
+}
+
+.CreationCompte p
+{
+
+    width: 75%;
+    margin: auto; 
+    text-align: left;
+    font-size: 20px;
+
+
+}
+
+.CreationCompte a
+{
+    margin-top: 15px;
+
+
+}
+
+.CreationCompte button
+{
+background-color: rgba(130,102,6,0.92);
+margin-top: 15px;
+}
+
+.Connexion
+{
+
+
+width: 50%;
+
+}
+.Connexion h3
+{
+    border-bottom: 1px solid black; 
+    margin: auto; 
+    padding-bottom: 5px; 
+    width: 450px;
+    font-size: 30px;
+    
+
+
+}
+
+.Connexion p
+{
+
+
+
+
+}
+
+.Connexion input
+{
+
+
+
+
+}

@@ -1,0 +1,160 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 janv. 2020, 18:34:18
+    Author     : kelfilal
+*/
+
+#bodyApplePage
+{
+
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    font-family: San Francisco , sans-serif  ;
+
+}
+
+
+#divTextCategorieAppleIphone
+{
+
+    background:rgba(0, 0, 0, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    height: 300px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+
+
+}
+
+#divTextCategorieAppleIphone span
+{
+
+    color: darkgoldenrod;
+
+}
+
+#divTextCategorieAppleIphone2
+{
+
+    background:rgba(0, 0, 0, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    height: 90px;
+    text-align: center;
+
+
+
+}
+
+p.alignP
+{
+    display:inline-block;
+    margin-left: 5px;
+    width: 330px;
+
+
+
+}
+
+
+p.alignP a
+{
+    transition: all 0.5s ease 0s;
+    color: darkgoldenrod ;
+
+
+}
+
+p.alignP a:hover
+{
+    text-decoration: underline;
+    color: white ;
+
+
+}
+
+p.alignP a:link
+{
+    text-decoration:none;
+
+
+}
+
+#divTextCategorieAppleMac
+{
+
+    background:rgba(0, 0, 0, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+
+
+}
+
+#divTextCategorieAppleMac span
+{
+
+    color: darkgoldenrod;
+
+}
+
+
+#divTextCategorieAppleMac2
+{
+
+    background:rgba(0, 0, 0, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+p.alignP2
+{
+    display:inline-block;
+    margin-left: 5px;
+    width:330px;
+
+
+
+}
+
+
+p.alignP2 a
+{
+    transition: all 0.5s ease 0s;
+    color: darkgoldenrod ;
+
+
+}
+
+p.alignP2 a:hover
+{
+    text-decoration: underline;
+    color: white ;
+
+
+}
+
+p.alignP2 a:link
+{
+    text-decoration:none;
+
+
+}

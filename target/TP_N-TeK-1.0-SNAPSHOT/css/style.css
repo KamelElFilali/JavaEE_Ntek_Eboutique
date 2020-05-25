@@ -1,0 +1,507 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 janv. 2020, 18:11:56
+    Author     : kelfilal
+*/
+#bodyHeader
+{
+    width: 100%;
+
+    height: auto; /* needed for proper layout */
+    /*background:rgba(0, 0, 220, 1);*/
+    font-family: San Francisco , sans-serif  ;
+}
+
+body a
+{
+
+
+    transition: all 0.5s ease 0s;
+}
+
+/* ************************************ DEBUT DU STYLE DU HEADER *********************************  */
+
+header
+{
+
+    /*background:rgba(0, 0, 0, 1);*/
+    height: 250px;
+    width: 100%;
+    flex: 0 0 auto;
+
+
+}
+
+.premierBlockHeader
+{
+    background:rgba(0, 0, 0, 1);
+    height: 150px;
+
+}
+
+#lgneSeparanteHaut
+{
+    height: 10px;
+    background-color: darkgoldenrod;
+
+
+}
+
+
+.deuxiemeBlockHeader
+{
+    /*    box-sizing: border-box;*/
+    background:rgba(0, 0, 0, 0.9);
+    height: 100px;
+    font-size: 20px;   
+}
+.deuxiemeBlockHeader ul
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.deuxiemeBlockHeader li
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: darkgoldenrod;
+    margin-top: 30px; 
+
+    border-right: 2px solid darkgoldenrod ;
+}
+
+.deuxiemeBlockHeader li p
+{
+
+    padding-right:  80px;
+
+}
+.deuxiemeBlockHeader li a
+{
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    color: inherit;
+
+
+
+
+}
+
+.deuxiemeBlockHeader li a:hover
+{
+    color: white ;
+}
+
+li.menuDeroulantMarques
+{
+
+
+
+
+
+}
+
+ul.sousMenuDeroulant
+{
+    display: flex;
+    flex-flow: column ;
+    z-index: 1000;
+    padding-top: 20px;
+    padding-bottom:  20px;
+    border: darkgoldenrod solid;
+    font-size: 15px;
+
+}
+
+ul.sousMenuDeroulant li
+{
+    flex: 1 1 auto;
+    text-align: center;
+/*    border-bottom: darkgoldenrod solid;*/
+    border-right: none;
+    border-bottom: none;
+    margin-top: 5px;
+
+
+}
+
+ul.sousMenuDeroulant a
+{
+
+    border: none;
+
+
+
+}
+
+ul.sousMenuDeroulant
+{
+    display: none;
+    width: 140px;
+    background:rgba(0, 0, 0, 0.8);
+    position: absolute;
+
+}
+
+
+header > section > ul li:hover .sousMenuDeroulant{
+    display: flex;
+    flex-flow:column ;
+}
+.sousMenuDeroulant a{
+    border: none;
+
+}
+.sousMenuDeroulant a:hover{
+    border: none;
+
+}
+.menuDeroulantMarques > a::after{
+    /*        content:" ▼";*/
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#lgneSeparanteBas
+{
+
+    height: 10px;
+    background-color: darkgoldenrod;
+
+
+}
+
+#barreDeRechercheHesder form{
+    display: flex ;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.flex-container{
+    display: flex ;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoSite
+{
+
+
+    height: 150px;
+    width: 190px;
+
+}
+
+#logoHeader
+{
+
+    /*  margin: 0 auto;*/
+
+
+
+
+}
+.iconeGaucheHeader
+{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#iconeConnexion
+{
+    border-right: solid darkgoldenrod;
+
+}
+
+#iconeCompteUtilisateur
+{
+    width: 93px;
+    border-right: solid darkgoldenrod;
+}
+
+#iconePanier
+{
+    width: 93px;
+
+}
+#barreDeRechercheHesder
+{
+    height: 50px;
+    width: 150px;
+    /*    margin-top: 40px;*/
+    margin-left: 10px;
+
+}
+
+#barreNavigation 
+{
+    background: rgba(0, 0, 0, 0.5); /* for latest browsers */
+    height: 100px;
+
+}
+
+#barreRecherche {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 3px solid darkgoldenrod;
+    width: 150px;
+    height: 40px;
+    color: darkgoldenrod;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 18px;
+}
+
+#recherche
+{
+    padding-left: 0px;
+    width: 160px;
+}
+#boutonRechercher
+{
+
+    /*    margin-top: 40px;*/
+
+
+}
+#barreRecherche::placeholder 
+{
+    color: darkgoldenrod;
+
+}
+
+#boutonRechercher 
+{
+
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 50px;
+    height: 40px;
+    border-color: transparent;
+    border:hidden;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: none;
+    outline: none;
+    transform: scaleX(-1);
+}
+/* ************************************ FIN DU STYLE DU HEADER *********************************  */
+
+
+/* ************************************ DEBUT DU STYLE DU FOOTER *********************************  */
+#BodyFooter
+{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    font-family: San Francisco , sans-serif  ;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+
+}
+
+
+footer
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    background:rgba(0, 0, 0, 1);
+
+    flex: 0 0 auto;
+
+}
+
+
+.footerContainer 
+{
+    flex: 1;    /* pareil que le flex-grow: 1; */
+}
+
+.footerLogo
+{
+
+
+}
+
+.footerPaiement
+{
+
+
+
+}
+
+
+.footerTitre
+{
+    color: white ;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+    font-size: 20px;
+}
+
+
+footer ul
+{
+
+    color: darkgoldenrod ;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+
+
+}
+
+footer a 
+{
+
+    color: darkgoldenrod;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    color: inherit;
+}
+footer a:hover 
+{
+    text-decoration: underline;
+    color: white ;
+}
+
+footer a:link
+{
+    text-decoration:none;
+}
+
+.footerMain
+{
+
+    padding: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.footerItem
+{
+    padding: 10px;
+    min-width: 200px /*200px*/;
+    font-size: 15px;
+
+
+
+}
+
+
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .footerMain {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .footerMain {
+        justify-content: space-evenly;
+    }
+}
+
+.footerPaiement
+{
+
+
+
+}
+
+.footerReseaux
+{
+
+
+    padding: 0 1.875rem 1.25rem;
+
+}
+
+.footerListeResaux
+{
+
+
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid; 
+    padding-top: 1.25rem;
+
+
+
+}
+
+.footerListeResaux li
+{
+
+    margin: 0.5rem;
+    font-size: 50px;
+
+
+}
+
+.footerCondition
+{
+
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+    /*    background:rgba(0, 0, 0, 0.9);*/
+
+}
+
+.footerListeCondition
+{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+
+
+}
+
+.footerListeCondition li
+{
+
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+
+
+
+}
+
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;       /* pareil que flex-grow: 1; */
+}
+
+/* ************************************ FIN DU STYLE DU FOOTER *********************************  */
